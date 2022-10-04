@@ -1,19 +1,3 @@
 turnConfig = {
-    iceServers: [
-    {   
-      urls: [ "stun:bn-turn1.xirsys.com" ]
-    }, 
-    {   
-      username: "0kYXFmQL9xojOrUy4VFemlTnNPVFZpp7jfPjpB3AjxahuRe4QWrCs6Ll1vDc7TTjAAAAAGAG2whXZWJUdXRzUGx1cw==",   
-      credential: "285ff060-5a58-11eb-b269-0242ac140004",   
-      urls: [       
-        "turn:bn-turn1.xirsys.com:80?transport=udp",       
-        "turn:bn-turn1.xirsys.com:3478?transport=udp",       
-        "turn:bn-turn1.xirsys.com:80?transport=tcp",       
-        "turn:bn-turn1.xirsys.com:3478?transport=tcp",       
-        "turns:bn-turn1.xirsys.com:443?transport=tcp",       
-        "turns:bn-turn1.xirsys.com:5349?transport=tcp"   
-       ]
-     }
-   ]
+    iceServers: [{   urls: [ "stun:bn-turn1.xirsys.com" ]}, {   username: "YDxROoAXzqcYg4Szgo-izgFV_JAVuZfYATK_iTDZ0O9ejAhOxBIpLR7jOslhGqxCAAAAAGM721hhcHVydmEyMzAz",   credential: "0053e4e6-43b3-11ed-931a-0242ac140004",   urls: [       "turn:bn-turn1.xirsys.com:80?transport=udp",       "turn:bn-turn1.xirsys.com:3478?transport=udp",       "turn:bn-turn1.xirsys.com:80?transport=tcp",       "turn:bn-turn1.xirsys.com:3478?transport=tcp",       "turns:bn-turn1.xirsys.com:443?transport=tcp",       "turns:bn-turn1.xirsys.com:5349?transport=tcp"   ]}]
 }
